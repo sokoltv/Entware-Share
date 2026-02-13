@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 
 set "ROUTER_IP=192.168.1.1"
 set "USER=root"
-set "REMOTE_PATH=/opt/etc/nfqws/"
+set "REMOTE_PATH=/opt/etc/nfqws2/blobs/"
 set "LOCAL_FOLDER=UPLOAD_FOLDER"
 
 cd /d "%~dp0"
@@ -16,7 +16,7 @@ if not exist "%LOCAL_FOLDER%" (
 :menu
 cls
 echo ==============================================
-echo    ПЕРЕДАЧА ФАЙЛОВ NFQWS-KEENETIC
+echo    ПЕРЕДАЧА ФАЙЛОВ NFQWS2-KEENETIC
 echo        script by S O K O L T V
 echo ==============================================
 echo Целевая папка: %REMOTE_PATH%
